@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="game_objects">
+      <UniqueIdentifier>{447e5b36-182e-416e-90c7-df06dbd6b568}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game_objects\enemies">
+      <UniqueIdentifier>{db25a241-e3a7-449c-8573-999da35801c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine">
+      <UniqueIdentifier>{e0ac08fd-344c-4ad1-b104-dc1427401a77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="components">
+      <UniqueIdentifier>{7b77d075-bed5-47cc-9a4f-3051d9c5a2d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\sub-systems">
+      <UniqueIdentifier>{b24d0e6e-62c1-4978-a4a2-1de4ae9c37e5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="missile_command.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>game_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="game_object.cpp">
+      <Filter>game_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="component.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="avancezlib.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_system.cpp">
+      <Filter>engine\sub-systems</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics_system.cpp">
+      <Filter>engine\sub-systems</Filter>
+    </ClCompile>
+    <ClCompile Include="input_system.cpp">
+      <Filter>engine\sub-systems</Filter>
+    </ClCompile>
+    <ClCompile Include="text_system.cpp">
+      <Filter>engine\sub-systems</Filter>
+    </ClCompile>
+    <ClCompile Include="time_system.cpp">
+      <Filter>engine\sub-systems</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="vector2D.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="bomb.h">
+      <Filter>game_objects\enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="bomber.h">
+      <Filter>game_objects\enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="missile.h">
+      <Filter>game_objects\enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="missile_system.h">
+      <Filter>game_objects\enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="explosion.h">
+      <Filter>game_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="city.h">
+      <Filter>game_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>game_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="rocket.h">
+      <Filter>game_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="variables.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="game_object.h">
+      <Filter>game_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="component.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="avancezlib.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="object_pool.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_system.h">
+      <Filter>engine\sub-systems</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics_system.h">
+      <Filter>engine\sub-systems</Filter>
+    </ClInclude>
+    <ClInclude Include="input_system.h">
+      <Filter>engine\sub-systems</Filter>
+    </ClInclude>
+    <ClInclude Include="text_system.h">
+      <Filter>engine\sub-systems</Filter>
+    </ClInclude>
+    <ClInclude Include="time_system.h">
+      <Filter>engine\sub-systems</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
